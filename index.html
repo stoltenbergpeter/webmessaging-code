@@ -43,7 +43,7 @@
   console.log("Database plugin is ready.")
 });
         
-        Genesys("subscribe", Database.updated, function(){
+        Genesys("subscribe", "Database.updated", function(){
       console.log('ready to log!')});
 
         function openChat() {
